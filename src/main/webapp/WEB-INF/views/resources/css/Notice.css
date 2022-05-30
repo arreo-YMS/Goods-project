@@ -1,0 +1,194 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HSYuji-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSYuji-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+
+#container{width: auto; margin: 0 auto; }
+
+header{width: auto; margin: 0 auto; height: 300px; background-color: white;}
+
+#logo{width: 100%; height:100px; background-color: pink;}
+#logo h1{font-size: 80px; line-height: 100px; color: white; font-family: SDSamliphopangche_Outline;}
+
+
+li {
+  list-style: none;
+}
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'SDSamliphopangche_Outline';
+  background-color: yellow;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 70%);
+}
+
+.fixbar{
+    position: fixed;
+    z-index: 10;
+}
+.topmenu{
+  width: 700px;
+  margin-top: 70px;
+  font-family: 'SDSamliphopangche_Outline';
+  background-color: #FFDDDD;
+  height: 50px;
+  float: center;
+   padding-left:100px;
+}
+.topmenu > ul > li{
+color: black;
+margin-right: 50px;
+padding-top: 20px;
+}
+.topmenu_li{float: left; margin-left: 60px;}
+
+
+
+.menu{
+  color: black;
+  
+}
+.fixbar >nav > ul > li > a:hover{
+  color: white;
+  width: 150px;
+}
+
+  
+
+#slideShow {   
+    margin: 0 auto;
+    clear:both;   /* 플로팅 해제 */
+    width:80%;    /* 너비 */ 
+    height:400px;   /* 높이 */ 
+    overflow:hidden;   /* 영역 넘치면 감춤 */ 
+    position: relative;
+    margin-top: 10px;
+  }
+  #slides > img {
+    width:100%;
+    height: 400px;  /* 너비 */
+    margin-left: 0;
+    margin-bottom: 100px;  /* 가로로 배치 */
+    
+  }
+  
+button {
+	border: none;
+	padding: 10px 15px; 
+	text-align: center;
+	font-size: 16px;
+	margin: 6px -150px; 
+	cursor: pointer;
+}
+  #prev {
+    left:0;  /* 왼쪽으로 붙여서 */ 
+  }
+  #next {
+    right:0;  /* 오른쪽으로 붙여서 */ 
+  }
+  button:hover {
+    background-color:#222;  /* 짙은 회색 배경 */
+    color:#fff;   /* 흰색 화살표 */ 
+    opacity:0.6;   /* 불투명도를 조금 높임 */ 
+    cursor:pointer;  /* 커서 모양을 포인터로 */ 
+  }
+  button:focus {
+    outline:0;  /* 아웃트라인 없앰 */
+  }
+
+
+.profile{
+    border-radius: 60%;
+    overflow: hidden;
+    margin-left: 200px;
+    width: 150px; height: 150px;
+    
+}
+#ARTIST{
+  margin-top: 200px;
+  color: #E3C4FF;
+  font-family: 'SDSamliphopangche_Outline';
+  width: 300px;
+  
+}
+#LINE{
+   margin-bottom: 130px;
+   height: 3px;
+   border: 0;
+   background: #E3C4FF;
+}
+
+.p-color{
+	width : 600px;
+	height: 600px;
+	background-color: blue;
+}
+
+
+#contents{
+    display: block;
+    width: 100%;
+    height: 200px;
+   
+    
+    text-align: center;
+    
+}
+#contents a{
+    float: left;
+    margin-left: 50px;
+    display: block;
+    
+}
+#contents2{
+    display: block;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: blue;
+    
+    
+}
+
+em{
+    font-family: SBAggroB;
+    color: pink;
+}
+
+
+
+footer{
+    clear: both;
+    height: 100px;
+    width: 1600px;
+    margin: 0 auto;
+}
+footer > hr{
+    margin-top: 100px;
+}
